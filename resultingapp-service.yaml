@@ -11,5 +11,4 @@ spec:
     - name: resulting-app
       image: dockersamples/examplevotingapp_result
   selector:
-    app: result
     tier: result-tier

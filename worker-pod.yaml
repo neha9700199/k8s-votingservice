@@ -1,0 +1,11 @@
+apiversion: v1
+kind: Pod
+metadata:
+  name: workerpod
+  labels:
+    app: worker
+
+spec:
+  containers:
+    - name: postgress-pod
+      image: dockersamples/examplevotingapp_result

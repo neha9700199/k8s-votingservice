@@ -1,0 +1,12 @@
+apiversion: v1
+kind: Pod
+metadata:
+  name: postgress-pod
+  labels:
+    app: db-app
+spec:
+  containers:
+    - name: postgress-image
+      image: postgress
+      ports:
+        - containerPort: 5432

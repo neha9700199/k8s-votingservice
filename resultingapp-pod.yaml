@@ -3,6 +3,7 @@ kind: Pod
 metadata:
   name:
     app: result
+  labels:
     tier: result-tier
 spec:
   containers:
