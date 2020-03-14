@@ -1,0 +1,10 @@
+Flask
+Redis
+gunicorn
+flask-wtf
+flask-sqlalchemy
+SQLAlchemy
+flask_bcrypt
+flask_login
+Pillow
+flask-mail
